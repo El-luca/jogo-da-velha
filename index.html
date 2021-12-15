@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/scripts/styles/reset.css">
+    <link rel="stylesheet" href="./src/scripts/styles/style.css">
+    <title>Jogo da velha</title>
 </head>
 <body>
-    <div>
-        pq não ta salvando????
+  <section class='container-left'>
+      <div class='player-box'>
+          <input class="player-field player-field-1 " placeholder="Jogador 1"/>
+        <div class="player-field-wrapper">
+            <input class="player-field player-field-2 " placeholder="Jogador 2"/>
+            <div class="switcher switcher-bot ">
+            <div class="switcher-ball"></div>
+            </div>      
+        </div>
     </div>
+    <p>Tipo de Partida</p>
+  </section>
+  <section class='container-center'></section>
+  <section class='container-right'></section>
+  <script src="src/scripts/index.js"></script>
 </body>
 </html>
