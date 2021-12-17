@@ -19,6 +19,7 @@
 .player-box{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .player-field{
@@ -67,6 +68,7 @@
     border-radius: 10px;
     padding-right: 9px;
     transition-duration: 300ms;
+    margin-bottom: 40px; ;
 }
 
 .player-field-wrapper:focus-within{
@@ -86,11 +88,128 @@
 .switcher.active > .switcher-ball{
     transform: translateX(22px);
     background-color: #45F391;
-    ;
+    
 }
 
 .switcher.active{
 background-color: #ffffff;
 border: 1px solid #45F391;
-;
+
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    color: #45F391;
+    size: 24px;
+    margin-bottom: 15px;
+}
+
+.matches{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.three{
+    margin-left: 69px;
+    margin-right: 43px;
+    color: #ffffff;
+    box-sizing: 16px;
+}
+
+.five{
+    margin-left: 44px;
+    margin-right: 35px;
+    color: #ffffff;
+    box-sizing: 16px;
+    margin-bottom: 45px;
+}
+
+.play{
+    align-items: center;
+    justify-content: center;
+    background-color: #45F391;
+    color: #ffffff;
+    width: 317px;
+    height: 54px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 35px;
+    width: 100%;
+    margin-right: 35px;
+    margin-bottom: 38px;
+}
+
+.play:hover{
+    cursor: pointer;
+    transition-duration: 300ms;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0,25);
+    border: 1px solid #45F391;
+}
+
+.match-history{
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 168px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+
+.history-winner{
+    color: #45F391;
+    font-weight: 700;
+
+}
+
+.first-frame{
+    color: #828282;
+    font-weight: 400;
+    height: 24px;
+}
+
+.scenario{
+    color: #ffffff;
+    font-weight: 400;
+    height: 24px;
+}
+
+.field{
+  
+    display: flex;
+    width: 11px;
+    height: 10px;
+    background-color: #ffffff;
+    color: #828282;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.story-game{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    flex-wrap: wrap;              
+    justify-content: space-around;
+    
+    
 }
