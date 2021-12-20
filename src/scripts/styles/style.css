@@ -127,8 +127,6 @@ h1{
 }
 
 .play{
-    align-items: center;
-    justify-content: center;
     background-color: #45F391;
     color: #ffffff;
     width: 317px;
@@ -136,7 +134,6 @@ h1{
     border-radius: 10px;
     border: none;
     margin-left: 35px;
-    width: 100%;
     margin-right: 35px;
     margin-bottom: 38px;
 }
@@ -157,10 +154,10 @@ h1{
     margin-bottom: 20px;
 }
 
-.wrapper{
+.first{
+    width: 317px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .winner{
@@ -171,6 +168,11 @@ h1{
     border-radius: 10px;
     background-color: #ffffff;
     justify-content: space-around;
+}
+
+.teste{
+    margin-left: 26px;
+    margin-right: 25px;
 }
 
 .history-winner{
@@ -189,6 +191,7 @@ h1{
     color: #ffffff;
     font-weight: 400;
     height: 24px;
+   
 }
 
 .field{
@@ -201,15 +204,36 @@ h1{
     font-size: 9px;
     align-items: center;
     justify-content: center;
+    margin: 2px
 
 }
 
 .story-game{
-    width: 21px;
-    height: 21px;
-    display: inline-block;
-    flex-wrap: wrap;              
-    justify-content: space-around;
-    
-    
+    display: flex;
+    flex-wrap: wrap; 
+    width: 52px;
+    height: 36px;
+}
+
+.first{
+    margin-bottom: 20px;
+}
+
+.second{
+    margin-bottom:98px;
+}
+
+.restart{
+    color: #0097E6;
+    background-color: #ffffff;
+    height: 54px;
+    width: 317px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.restart:hover{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: transparent;
+    color: #45F391;
 }
