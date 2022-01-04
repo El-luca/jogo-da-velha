@@ -1,0 +1,156 @@
+body {
+    background-color: #82CDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.winner-title {
+    background-color: #0099FF;
+    height: 74px;
+    font-size: 33px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 66px;
+    border-radius: 12px 12px 0 0;
+    max-width: 430px;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.scorebord-box {
+    height: 148px;
+    background-color: #0099FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    width: 949px;
+    border-radius: 17px;
+    padding: 0 33px;
+}
+
+.player-name {
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.scorebord {
+    color: #0099FF;
+    background-color: #DBF1FF;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.vs-separation {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.player-name-1 {
+    margin-right: 19px;
+}
+
+.player-name-2 {
+    margin-left: 19px;
+}
+
+.scorebord-1 {
+    margin-right: 51px;
+}
+
+.scorebord-2 {
+    margin-left: 51px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.button-move {
+    height: 80px;
+    width: 220px;
+    background-color: #0099FF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 44px;
+    border: none;
+}
+
+.button-move:hover {
+    background-color: transparent;
+    color: #0099FF;
+    transition-duration: 300ms;
+    border: 1px solid #0099FF;
+    box-shadow: 5px 5px 10px #0000004D;
+}
+
+.batlefield-container {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.battlefied {
+    display: flex;
+    align-items: center;
+    background-color: #0099FF;
+    padding: 30px;
+    border-radius: 17px;
+    margin: 0 19px;
+}
+
+.vs-separation-big {
+    font-size: 104px;
+    margin: 0 88px;
+}
+
+.field {
+    width: 300px;
+    height: 240px;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-2 .image-move{
+transform:scale(-100%) ;
+}
+
+.button-start {
+    margin-right: 101px;
+}
+
+.image-move{
+    width: 80%;
+}
+
+.button-active{
+    background-color: transparent;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px #0000004D;
+}
+/*nota para o futuro nao aparecer a imagem enquanto o oponente não clicar tbm ....
+não alterar em varrrios clics ( ex. clicou na pedra nao pode alterrar)   */

@@ -1,87 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/scripts/styles/reset.css">
-    <link rel="stylesheet" href="./src/scripts/styles/style.css">
-    <title>Jogo da velha</title>
-</head>
-<body>
-  <section class='container-left'>
-      <div class='player-box'>
-          <input class="player-field player-field-1 " placeholder="Jogador 1"/>
-        <div class="player-field-wrapper">
-            <input class="player-field player-field-2 " placeholder="Jogador 2"/>
-            <div class="switcher switcher-bot ">
-            <div class="switcher-ball"></div>
-            </div>      
-        </div>
-    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins&família=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
+        rel=" stylesheet ">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/sttyles.css">
+    <title>Joquempo</title>
 
-    <h1>Tipo de Partida</h1>
-  
-    <div class="matches">
-      <p class="three">Melhor de 3</p>
-      <div>
-       <imput class="matches-field "/> 
-        <div class="switcher switcher-bot">
-          <div class="switcher-ball"></div>
+</head>
+
+
+<body>
+    <header class="header">
+
+        <h1 class="winner-title">Vencedor!</h1>
+        <div class="scorebord-box">
+
+            <span class="player-name player-name-1">Jogadora 1</span>
+            <strong class=" scorebord scorebord-1">01</strong>
+            <span class="vs-separation">VS</span>
+            <strong class="scorebord scorebord-2">02</strong>
+            <sapn class="player-name player-name-2">Jogadora 2</sapn>
         </div>
-      </div>
-      <p class="five">Melhor de 5</p>
+    </header>
+    <section class="batlefield-container">
+        <div class="button-wrapper">
+            <button class="button-move button-stone-1">Pedra</button>
+            <button class="button-move button-paper-1">Papel</button>
+            <button class="button-move button-scissors-1">Tesoura</button>
+        </div>
+        <div class="battlefied">
+            <div class="field field-1"></div>
+            <span class="vs-separation vs-separation-big">VS </span>
+            <div class="field field-2"></div>
+        </div>
+        <div class="button-wrapper">
+            <button class='button-move button-stone-2'>Pedra</button>
+            <button class='button-move button-paper-2'>Papel</button>
+            <button class='button-move button-scissors-2'>Tesoura</button>
+        </div>
+    </section>
+    <div class="button-botton-wrapper">
+        <button class='button-move button-start'>Iniciar</button>
+        <button class='button-move button-reset'>Resetar</button>
     </div>
-        <button class="play">Jogar</button>
-    <h2 class="match-history">Historicos de Partidas</h2>
-    <div class="wrapper first">
-      <div>
-        <div class="winner">
-          <span class="history-winner">Vencedor</span>
-          <span class="first-frame">Primeiro Quadro</span>
-        </div>
-        <div class="teste">
-          <p class="scenario">Cenário</p>
-        </div>
-        <div class="story-game">
-          <div class="field">O</div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-          <div class="field">X</div>
-          <div class="field"></div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper second">
-      <div>
-        <div class="winner">
-          <span class="history-winner">Vencedor</span>
-          <span class="first-frame">Primeiro Quadro</span>
-        </div>
-        <div class="teste">
-          <p class="scenario">Cenário</p>
-        </div>
-        <div class="story-game">
-          <div class="field">O</div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-          <div class="field">X</div>
-          <div class="field"></div>
-          <div class="field">O</div>
-          <div class="field">X</div>
-        </div>
-      </div>
-    </div>
-    <button class="restart">Reiniciar</button>
-  </section>
-  <section class='container-center'></section>
-  <section class='container-right'></section>
-  <script src="src/scripts/index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
+
+<!-- /*nota para o futuro nao aparecer a imagem enquanto o oponente não clicar tbm ....
+não alterar em varrrios clics ( ex. clicou na pedra nao pode alterrar)   */ -->
