@@ -2,9 +2,15 @@
     width: 28%;
     background-color:#0097E6;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 52%;
     background-color: #2BA9EA;
     height: 100%;
@@ -154,6 +160,30 @@ h1{
     margin-bottom: 20px;
 }
 
+.wrapper-match{
+    margin: none;
+    width: 100%;
+    max-width: 333px;
+    overflow: auto;    
+}
+
+.scenary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 26px;
+}
+
+.wrapper-first{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+   margin-bottom: 20px;
+   min-width: 168px;
+   min-height: 50px;
+}
+
 .first{
     width: 317px;
     display: flex;
@@ -167,13 +197,11 @@ h1{
     width: 168px;
     border-radius: 10px;
     background-color: #ffffff;
-    justify-content: space-around;
+    padding: 9px 15px;
+    min-width: 168px;
+    min-height: 50px;
 }
 
-.teste{
-    margin-left: 26px;
-    margin-right: 25px;
-}
 
 .history-winner{
     color: #45F391;
@@ -182,6 +210,7 @@ h1{
 }
 
 .first-frame{
+    display: flex;
     color: #828282;
     font-weight: 400;
     height: 24px;
@@ -195,7 +224,6 @@ h1{
 }
 
 .field{
-  
     display: flex;
     width: 11px;
     height: 10px;
@@ -211,8 +239,10 @@ h1{
 .story-game{
     display: flex;
     flex-wrap: wrap; 
-    width: 52px;
     height: 36px;
+    width: 52px;
+    min-height: 36px;
+    min-width: 52px;
 }
 
 .first{
@@ -232,8 +262,65 @@ h1{
     font-weight: 500;
     border-radius: 10px;
 }
+
 .restart:hover{
     box-shadow: 0px 4px 4px 0px #00000040;
     background-color: transparent;
     color: #45F391;
+}
+
+/* center */
+
+.big-blue{
+    color: #0097E6;
+}
+
+.history-scoreboard{
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 400px;
+    min-width: 400px;
+    height: 100px;
+    min-height: 100px;
+    margin-bottom: 70px;
+}
+
+.scoreboard-center{
+    width: 55px;
+    height: 35px;
+    color: #0097E6;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0 30px;
+}
+
+.player-center{
+    color: #828282;
+    width: 75px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 573px;
+    height: 510px;
+
+}
+
+.batle-field{
+    background-color: #ffffff;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
 }
