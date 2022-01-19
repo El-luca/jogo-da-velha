@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/scripts/styles/reset.css">
+  <link rel="stylesheet" href="./src/scripts/styles/style.css">
+  <link rel="shortcut icon" href="imagens/controle.ico" type="image/x-icon">
+  <title>Jogo da velha</title>
+</head>
+
+<body>
+  <section class='container-left'>
+    <div class='player-box'>
+      <input class="player-field player-field-1 " placeholder="Jogador 1" />
+      <div class="player-field-wrapper">
+        <input class="player-field player-field-2 " placeholder="Jogador 2" />
+        <div class="switcher switcher-bot ">
+          <div class="switcher-ball"></div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Tipo de Partida</h1>
+
+    <div class="matches">
+      <p class="three">Melhor de 3</p>
+      <div>
+        <imput class="matches-field " />
+        <div class="switcher switcher-bot">
+          <div class="switcher-ball"></div>
+        </div>
+      </div>
+      <p class="five">Melhor de 5</p>
+    </div>
+    <button class="play">Jogar</button>
+    <h2 class="match-history">Historicos de Partidas</h2>
+    <div class="wrapper-match">      
+      <div class="wrapper-first">
+        <div class="winner">
+          <span class="history-winner">Vencedor</span>
+          <span class="first-frame">Primeiro Quadro</span>
+        </div>
+        <div class="scenary">
+          <p class="scenario">Cenário</p>
+        </div>
+        <div class="story-game">
+          <div class="field">O</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">X</div>
+          <div class="field"></div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+        </div>
+      </div>
+      <div class="wrapper-first">
+        <div class="winner">
+          <span class="history-winner">Vencedor</span>
+          <span class="first-frame">Primeiro Quadro</span>
+        </div>
+        <div class="scenary">
+          <p class="scenario">Cenário</p>
+        </div>
+        <div class="story-game">
+          <div class="field">O</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">X</div>
+          <div class="field"></div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+        </div>
+      </div>  
+      <div class="wrapper-first">
+        <div class="winner">
+          <span class="history-winner">Vencedor</span>
+          <span class="first-frame">Primeiro Quadro</span>
+        </div>
+        <div class="scenary">
+          <p class="scenario">Cenário</p>
+        </div>
+        <div class="story-game">
+          <div class="field">O</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+          <div class="field">X</div>
+          <div class="field"></div>
+          <div class="field">O</div>
+          <div class="field">X</div>
+        </div>
+      </div>
+      <div class="wrapper-first">
+        <div class="winner">
+          <span class="history-winner">Vencedor</span>
+          <span class="first-frame">Primeiro Quadro</span>
+        </div>
+        <div class="scenary">
+          <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div>
+    <div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div><div class="wrapper-first">
+      <div class="winner">
+        <span class="history-winner">Vencedor</span>
+        <span class="first-frame">Primeiro Quadro</span>
+      </div>
+      <div class="scenary">
+        <p class="scenario">Cenário</p>
+      </div>
+      <div class="story-game">
+        <div class="field">O</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+        <div class="field">X</div>
+        <div class="field"></div>
+        <div class="field">O</div>
+        <div class="field">X</div>
+      </div>
+    </div>
+  </div>
+    
+    <button class="restart">Reiniciar</button>
+  </section>
+  <section class='container-center'>
+    <div class="history-scoreboard">
+      <div>
+        <h1 class="title-scoreboard big-blue">Placar</h1>      
+      </div>
+      <span class="scoreboard-center scoreboard-field-1">01</span>
+      <strong class="player-center">Jogador 1</strong>
+      <span class="scoreboard-center scoreboard-field-2">01</span>
+    </div>
+    <div class="field-game">
+      <div class="batle-field">X</div>
+      <div class="batle-field">O</div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+      <div class="batle-field"></div>
+    </div>
+  </section>
+  <section class='container-right'>
+    <h2 class="match-history right">Históricos de jogadas</h2>
+    <div class="history-plays">
+      <div class="plays-field">O</div>
+      <div>
+        <h2 class="player-moves">Jogador 1</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">X</div>
+      <div>
+        <h2 class="player-moves">Jogador 2</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">O</div>
+      <div>
+        <h2 class="player-moves">Jogador 1</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">X</div>
+      <div>
+        <h2 class="player-moves">Jogador 2</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">O</div>
+      <div>
+        <h2 class="player-moves">Jogador 1</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">X</div>
+      <div>
+        <h2 class="player-moves">Jogador 2</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">O</div>
+      <div>
+        <h2 class="player-moves">Jogador 1</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+    <div class="history-plays">
+      <div class="plays-field">X</div>
+      <div>
+        <h2 class="player-moves">Jogador 2</h2>      
+        <span class="number-frame">Primeiro Quadro</span>
+      </div>
+    </div>
+  </section>
+  <script src="src/scripts/index.js"></script>
+</body>
+
+</html>
